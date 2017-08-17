@@ -1,0 +1,21 @@
+{
+  "name": "node-backup",
+  "version": "0.0.1",
+  "author": "psmyrdek",
+  "description": "Node Backup utility",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "clean": "rm -rf data && mkdir data"
+  },
+  "dependencies": {
+    "archiver": "^2.0.0",
+    "bluebird": "^3.5.0",
+    "chalk": "^2.1.0",
+    "ftp": "^0.3.10",
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^20.1.0",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1"
+  }
+}

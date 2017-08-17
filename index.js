@@ -17,10 +17,8 @@ const googleDriveConfig = {
 };
 
 const blacklistedPaths = [
-    '/tmp',
-    '/ebook',
-    '/wp-content/plugins_back',
-    '/wp-content/uploads'
+    // '/tmp',
+    // '/wp-content/uploads'
 ];
 
 const archiver = new BackupArchiver();

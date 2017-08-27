@@ -16,10 +16,7 @@ const googleDriveConfig = {
     credentials: config.googledrive.credentials
 };
 
-const blacklistedPaths = [
-    // '/tmp',
-    // '/wp-content/uploads'
-];
+const blacklistedPaths = require('./config/blacklist.json').paths;
 
 const archiver = new BackupArchiver();
 const ftpDownloader = new FtpDownloader(ftpClientConfig);
